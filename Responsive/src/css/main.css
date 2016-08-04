@@ -207,7 +207,8 @@ header .main ul li a {
 }
 
 header .main ul li a:hover,
-header .main ul li a:active {
+header .main ul li a:active,
+header .main ul li a.active {
 	color: #ffb300;
 	background-color: #f8f6f1;
 }
@@ -347,7 +348,7 @@ header .main ul li a:active {
 /* 滚动广告 */
 
 .ad {
-    display: none;
+    /*display: none;*/
 }
 
 /* 平台特点 */
@@ -845,4 +846,5 @@ footer ul li .icon-gs {
 footer p {
 	text-align: center;
 	color: #999;
+	
 }

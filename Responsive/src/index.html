@@ -3,16 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>理财网站</title>
+	<title>理财宝</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" >
 	<link rel="shortcut icon" href="/favicon.ico"/>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="js/vendor/owl.carousel.2.1.0/owl.carousel.2.1.0/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="js/vendor/owl.carousel.2.1.0/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
 </head>
 <body>
-<!-- [if lte IE 8] >
+
+<!--[if lte IE 8]>
 <p class="browserupgrade">您的浏览器版本老的可笑，请到<a href="http://browsehappy.com">这里</a>更新，以获取最佳的体验</p>
-<![endif] -->
+<![endif]-->
 
 <header>
 	<nav class="top">
@@ -39,7 +42,7 @@
 </header>
 
 <div class="container">
-	<div class="transaction">
+	<div class="transaction clearfix">
 		<div class="trans-content">
 			<div class="trans-data">
 				<span>平台累计成交金额</span>
@@ -58,14 +61,28 @@
 	</div>
 
 	<div class="ad">
-		<div class="item">
-			<img src="img/ad001.png">
-		</div>
-		<div class="item">
-			<img src="img/ad002.png">
-		</div>
-		<div class="item">
-			<img src="img/ad003.png">
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<picture>
+                    <source srcset="img/ad001-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad001-m.png" media="(min-width:30em)">
+                    <img src="img/ad001.png" alt="2015年度报告">
+                </picture>
+			</div>
+			<div class="item">
+				<picture>
+                    <source srcset="img/ad002-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad002-m.png" media="(min-width:30em)">
+                    <img src="img/ad002.png" alt="新年红包">
+                </picture>
+			</div>
+			<div class="item">
+				<picture>
+                    <source srcset="img/ad003-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad003-m.png" media="(min-width:30em)">
+                    <img src="img/ad003.png" alt="新手秘籍">
+                </picture>
+			</div>
 		</div>
 	</div>
 
@@ -255,7 +272,10 @@
 	<p>北京某互联网金融公司 版权所有 2015-2016</p>
 </footer>
 
-
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/owl.carousel.2.1.0/owl.carousel.2.1.0/owl.carousel.min.js"></script>
+<script src="js/vendor/picturefill.min.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
