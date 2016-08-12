@@ -1,13 +1,13 @@
 # Responsive Web Designe
 The web  is  written  by using HTML, CSS, JavaScript, jQuery. It is a responsive web by using media queries to change the user interface of different user devices.
 
-## Contents
+### Contents
 - [requirements](#requirements)
 - [installation](#installation)
 - [about](#about)
 - [license](#license)
 
-## Requirements
+### Requirements
 Should be globally installed
 - node.js 0.12.x
 - gulp 4.x
@@ -21,14 +21,14 @@ npm uninstall gulp -g
 npm install gulpjs/gulp-cli#4.0 -g
 ```
 
-## Installation
+### Installation
 ```
 git clone https://github.com/Ericteen/code/tree/master/Responsive
 cd web
 npm install gulp
 ```
 
-## About
+### About
 
 To preview different layouts of the web page 
 ,[view 800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F800px.png)
@@ -39,5 +39,5 @@ Gulp supports watching && live reload of your browser on project's files change.
 
 `gulp develop && gulp serve` - compile project one time for develop and run web server `gulp production && gulp serve` - compile project one time for production and run web server
 
-## License
+### License
 Open source. This project is licensed under the GPL v3 license. Check license for more information.
