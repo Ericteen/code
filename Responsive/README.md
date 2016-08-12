@@ -3,9 +3,9 @@ The web  is  written  by using HTML, CSS, JavaScript, jQuery. It is a responsive
 
 ## Contents
 - [requirements](#requirements)
-- installation
-- about
-- license
+- [installation](#installation)
+- [about](#about)
+- [license](#license)
 
 ## Requirements
 Should be globally installed
@@ -33,11 +33,11 @@ npm install gulp
 To preview different layouts of the web page 
 ,[view 800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F800px.png)
  ,[view 480-800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480-800px.png)
- ,[view 480px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480px.png)
+ ,[view 480px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480px.png).
 
 Gulp supports watching && live reload of your browser on project's files change.
 
 `gulp develop && gulp serve` - compile project one time for develop and run web server `gulp production && gulp serve` - compile project one time for production and run web server
 
 ## License
-This project is licensed under the GPL v3 license. Check license for more information.
+Open source. This project is licensed under the GPL v3 license. Check license for more information.
