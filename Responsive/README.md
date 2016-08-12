@@ -2,7 +2,7 @@
 The web  is  written  by using HTML, CSS, JavaScript, jQuery. It is a responsive web by using media queries to change the user interface of different user devices.
 
 ## Contents
-- requirements
+- [requirements](## Requirements)
 - installation
 - about
 - license
@@ -30,6 +30,10 @@ npm install gulp
 
 ## About
 
+To preview different layouts of the web page.
+[view 800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F800px.png)
+[view 480-800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480-800px.png)
+[view 480px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480px.png)
 
 Gulp supports watching && live reload of your browser on project's files change.
 
