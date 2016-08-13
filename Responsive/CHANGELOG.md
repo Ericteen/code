@@ -1,4 +1,4 @@
-### 1.0
+### v1.0
 
-* fix some bug
-* add some feature
+* fixed some bugs
+* add some features
