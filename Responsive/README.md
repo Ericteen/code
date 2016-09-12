@@ -32,11 +32,14 @@ npm install gulp
 
 To preview different layouts of the web page .
 
-size of greater than 800px. ![view 800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F800px.png)
+size of greater than 800px. 
+![view 800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F800px.png)
 
-size of 480-800px. ![view 480-800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480-800px.png)
+size of 480-800px. 
+![view 480-800px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480-800px.png)
  
-size of less than 480px. ![view 480px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480px.png)
+size of less than 480px. 
+![view 480px layout](https://github.com/Ericteen/code/blob/master/Responsive%2Fsrc%2Fimg%2F480px.png)
 
 Gulp supports watching && live reload of your browser on project's files change.
 
