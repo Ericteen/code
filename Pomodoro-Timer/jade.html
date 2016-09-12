@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <title>Podomoro Timer</title> -->
+    <title>番茄时钟</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>番茄时钟</h1>
+    <main ng-app="PomodoroApp" ng-controller="MainCtrl">
+        <header ng-click="toggleTimer()">
+            <div class="timer">
+                <p class="title">{{sessionName}}</p>
+                <p>{{timeLeft}}</p><span ng-style="{'height':fillHeight, 'background':fillColor }" class="fill"></span>
+            </div>
+        </header>
+        <section>
+            <div class="session">
+                <div class="breakCtrl">
+                    <p>休息时长</p>
+                    <button ng-click="breakLengthChange(-1)" class="minus"><span class="wrapper">-</span></button><span class="time">{{breakLength}}</span>
+                    <button ng-click="breakLengthChange(1)" class="plus"><span class="wrapper">+</span></button>
+                </div>
+                <div class="sessionCtrl">
+                    <p>工作时长</p>
+                    <button ng-click="sessionLengthChange(-1)" class="minus"><span class="wrapper">-</span></button><span class="time">{{sessionLength}}</span>
+                    <button ng-click="sessionLengthChange(1)" class="plus"><span class="wrapper">+</span></button>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+<script src="angular.min.js"></script>
+<script src="main.js"></script>
+</html>
